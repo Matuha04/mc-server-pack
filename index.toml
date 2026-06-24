@@ -5,6 +5,14 @@ file = "README.md"
 hash = "ec8ba5bd5c4bd2897f27d6424794d11f1415d7425a290e95d1336d2e4eb8ce46"
 
 [[files]]
+file = "config/commandaliases/forcesay.json"
+hash = "9dd52b3e55e1b0797f03283fe6618d63333153b7b832bb6500fcac02c0c1f240"
+
+[[files]]
+file = "config/commandaliases/smite.json"
+hash = "ec0c207415d9b56f79d05589e9d7fcf87b25b279e0a178d4f6e276ac83fd2a82"
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "0084d142626c0a39835cf2c6abbafb5fc3d5cf5136117c7e658a8af0c3dc4568"
 metafile = true
@@ -12,6 +20,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "eaa52d6ff1bcb539956d50626085d9185eca346fabcf6b3c176c53192b9958ec"
+metafile = true
+
+[[files]]
+file = "mods/commandaliases.pw.toml"
+hash = "b1e3646da01a0473801642ce356c64a34ba63853d3688147e481165294031218"
 metafile = true
 
 [[files]]
