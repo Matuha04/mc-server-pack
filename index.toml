@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "3c4d4c97d1a3cb0c9818a8e95f56f551a6f0dfdc86ac3a9955ffceb47d1fe2fe"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "0084d142626c0a39835cf2c6abbafb5fc3d5cf5136117c7e658a8af0c3dc4568"
 metafile = true
@@ -48,4 +53,9 @@ metafile = true
 [[files]]
 file = "mods/vanilla-refresh.pw.toml"
 hash = "2dd0f9f72ae17a41175e0a44f642a693a9abde4f985ff022a06eee7606a666a6"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "88b2211504efdc62eb41ad69abde250bc85da0c66fb6a7ddde874df42afe8fc6"
 metafile = true
