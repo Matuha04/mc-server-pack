@@ -1,9 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/balm.pw.toml"
-hash = "3c4d4c97d1a3cb0c9818a8e95f56f551a6f0dfdc86ac3a9955ffceb47d1fe2fe"
-metafile = true
+file = "README.md"
+hash = "ec8ba5bd5c4bd2897f27d6424794d11f1415d7425a290e95d1336d2e4eb8ce46"
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
@@ -21,6 +20,11 @@ hash = "e1b4cb1015dfe0e0cbe2da4fd30cd0948de757d08259cb5724e9448778e64449"
 metafile = true
 
 [[files]]
+file = "mods/essential-commands.pw.toml"
+hash = "01b068e883e786511bfc9b2cba0ef3c7af33989104f693515f6de4c6a6c551bd"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "2ccce9c28059ea90a5457771de06a69b0a2d1f06d48f8add48a38f1a2307da3c"
 metafile = true
@@ -28,6 +32,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "816b735b2ad505476201800a99f527e61b392b712b9d20ca9edcce05f412fe87"
+metafile = true
+
+[[files]]
+file = "mods/invview.pw.toml"
+hash = "80bdecdf7911f4b1b6c57d18717d8f435ae237991efdd4c43c50ba6f42bb2139"
 metafile = true
 
 [[files]]
@@ -53,9 +62,4 @@ metafile = true
 [[files]]
 file = "mods/vanilla-refresh.pw.toml"
 hash = "2dd0f9f72ae17a41175e0a44f642a693a9abde4f985ff022a06eee7606a666a6"
-metafile = true
-
-[[files]]
-file = "mods/waystones.pw.toml"
-hash = "88b2211504efdc62eb41ad69abde250bc85da0c66fb6a7ddde874df42afe8fc6"
 metafile = true
