@@ -1,0 +1,51 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "0084d142626c0a39835cf2c6abbafb5fc3d5cf5136117c7e658a8af0c3dc4568"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "eaa52d6ff1bcb539956d50626085d9185eca346fabcf6b3c176c53192b9958ec"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "e1b4cb1015dfe0e0cbe2da4fd30cd0948de757d08259cb5724e9448778e64449"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "2ccce9c28059ea90a5457771de06a69b0a2d1f06d48f8add48a38f1a2307da3c"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "816b735b2ad505476201800a99f527e61b392b712b9d20ca9edcce05f412fe87"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "8f6e0157b42ba668c0ba9aa7eff94b3b91a8f58bcd357e574d70a7b160d4337c"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "8c7aec9e376eb3f10da62109594e1ac6b7bc92da8e9c080f8f8f5a736051f339"
+metafile = true
+
+[[files]]
+file = "mods/mastercutter.pw.toml"
+hash = "6085654180887fa259b64cbd202abd83180b6fcd1483f11f30dad39b9c774d51"
+metafile = true
+
+[[files]]
+file = "mods/more-professions.pw.toml"
+hash = "6f8161c8e1c3c27ddd054e57d8c7ad7ba868e0c51ed2ca57dae3311211ac9636"
+metafile = true
+
+[[files]]
+file = "mods/vanilla-refresh.pw.toml"
+hash = "2dd0f9f72ae17a41175e0a44f642a693a9abde4f985ff022a06eee7606a666a6"
+metafile = true

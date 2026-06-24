@@ -1,0 +1,13 @@
+name = "Nibe-MC-Server"
+author = "Matuha04"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e5f84749630398bd6d0a8e222722fcf449355e3f50437524d0b86bd8cf1ba55f"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "1.21.11"
