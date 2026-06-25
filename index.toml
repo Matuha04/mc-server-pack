@@ -14,11 +14,19 @@ hash = "af2711ed128a20d92c18abc7733cdae217c4c8ef5d4507f7853bc3aec4548071"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/pos1.mcfunction"
-hash = "d2119d777488da00cdbc221a2b6874ee719327da4f9988e5c20fe47ef9e54e70"
+hash = "81744f182da39dd5172d7d22d06b0358b979cca40883c4331d0abe1f5f68b229"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/pos2.mcfunction"
-hash = "158f9e845f3c2d1aaa1d92c8cbdb5759d7e149d0dd431275b67d4b79a18e7c6f"
+hash = "7b8276cb7a9487f1ef2414f7be38fbbd25f1317c9275b7e9787a836c9fb2a2e3"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/say.mcfunction"
+hash = "7042e0b59186f60616f4237c9242cafff9a29d6317636119ee5def3344c90fc4"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/setcolor.mcfunction"
+hash = "c715d80c9b9fd7b073fd08711bd46d875a28716f7dcb70c0c4b27850a6b8ed6d"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/show.mcfunction"
@@ -26,7 +34,7 @@ hash = "f350086683ed9e03844f020a416d4cddad1e137a5742bd0e8f2d80a04aead614"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/smite.mcfunction"
-hash = "07dade30658972f869308456ae525311d9d78ef7ac32f1091ee4579096c15555"
+hash = "447401ed3e2e76fbaebb585ed3ddbf80bd8d48da7fd528dca8d7231ae53fa2d2"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/smite_clear.mcfunction"
@@ -47,18 +55,6 @@ hash = "30283942902c063b65ebdc253bddee8e3c21189bb2f6180aad0a9369646ca229"
 [[files]]
 file = "README.md"
 hash = "ec8ba5bd5c4bd2897f27d6424794d11f1415d7425a290e95d1336d2e4eb8ce46"
-
-[[files]]
-file = "config/commandaliases/border.json"
-hash = "df1bc25b038d92cad597b799533e1d2a25f4dff4b26fb64cb67a47c75c50569e"
-
-[[files]]
-file = "config/commandaliases/smite.json"
-hash = "16739db9a41e1d0c162c93701a6e333c0912ffd0766621ba81daa21584e14abb"
-
-[[files]]
-file = "config/commandaliases/sudo.json"
-hash = "eb2b164bd8e695ab261f74d051c3c98a5aec66a6e28698de242880d8da5bf49f"
 
 [[files]]
 file = "config/commandaliases/wp.json"
