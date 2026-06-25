@@ -30,11 +30,11 @@ hash = "8fe7413a56e4654e5ee25f8f6ace7c3646089285eb717c6baa9f1ffa8db61500"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/give_mode0.mcfunction"
-hash = "97a803edbacf394e7723676bfa0745236eb77d82d8fd79b6664f228f1d9b3151"
+hash = "8ee288238a672ab52432978adebc2e656f1249585171b5fcf43a4475ebedfcec"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/give_mode1.mcfunction"
-hash = "edb0a8f8a816ab8d4422986fd1418c4dca5acfcb94e3436895517cfc195ad263"
+hash = "c07c822b229e627fec164cf369bd9e013c335a182541cba97c3e582ebb5aabe1"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/givewand.mcfunction"
@@ -158,7 +158,7 @@ hash = "b53b08d6858a441b14ed7253b187cf9271778dfc2be342221a81a00590a27662"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/wand_use.mcfunction"
-hash = "64b8b1b81b7321af13dd8f6c11190f6e3692d581009a9542df416d9b67a5ca88"
+hash = "c610831e7f8f7ea9eeb0e769befd0ed7e3c836a13dcf00bfae10901365b088ee"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/predicate/sneaking.json"
