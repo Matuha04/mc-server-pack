@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "commandMode": "COMMAND_CUSTOM",
+  "command": "smite",
+  "permission": 2,
+  "children": [
+    {
+      "child": "target",
+      "type": "argument",
+      "argumentType": "minecraft:word",
+      "permission": 2,
+      "actions": [
+        { "command": "function glowborder:smite {target:\"{{target}}\"}", "commandType": "SERVER" }
+      ]
+    }
+  ]
+}
