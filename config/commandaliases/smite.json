@@ -11,12 +11,12 @@
       "permission": 2,
       "actions": [
         {
-          "command": "execute at {{target}} run summon minecraft:lightning_bolt",
+          "command": "function glowborder:smite {target:\"{{target}}\"}",
           "commandType": "SERVER"
         },
         {
           "startTime": "200",
-          "command": "execute at {{target}} run fill ~-4 ~-1 ~-4 ~4 ~6 ~4 minecraft:air replace minecraft:fire",
+          "command": "function glowborder:smite_clear",
           "commandType": "SERVER",
           "messageIfSuccessful": "Smited {{target}} (no fire left behind)."
         }

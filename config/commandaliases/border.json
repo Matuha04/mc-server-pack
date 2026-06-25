@@ -9,7 +9,7 @@
       "type": "literal",
       "permission": 2,
       "actions": [
-        { "command": "execute as $executor_name() at @s run function glowborder:pos1", "commandType": "SERVER" }
+        { "command": "function glowborder:pos1 {player:\"$executor_name()\"}", "commandType": "SERVER" }
       ]
     },
     {
@@ -17,7 +17,7 @@
       "type": "literal",
       "permission": 2,
       "actions": [
-        { "command": "execute as $executor_name() at @s run function glowborder:pos2", "commandType": "SERVER" }
+        { "command": "function glowborder:pos2 {player:\"$executor_name()\"}", "commandType": "SERVER" }
       ]
     },
     {

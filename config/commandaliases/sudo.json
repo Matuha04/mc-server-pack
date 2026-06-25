@@ -36,7 +36,7 @@
           "permission": 2,
           "actions": [
             {
-              "command": "execute as {{target}} at {{target}} run {{command}}",
+              "command": "function glowborder:sudo {target:\"{{target}}\",cmd:\"{{command}}\"}",
               "commandType": "SERVER"
             }
           ]
