@@ -4,6 +4,8 @@ execute store result score #cy gb run data get storage glowborder:circ cy
 execute store result score #cz gb run data get storage glowborder:circ cz
 execute store result score #cr gb run data get storage glowborder:circ r
 execute if score #cr gb matches ..0 run return fail
+scoreboard players set #plane gb 0
+execute store result score #plane gb run data get storage glowborder:circ plane
 scoreboard players operation #qx gb = #cr gb
 scoreboard players set #qy gb 0
 scoreboard players set #err gb 0
