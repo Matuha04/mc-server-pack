@@ -16,3 +16,15 @@ execute if score #m gb matches 2 unless predicate glowborder:sneaking run functi
 # mode 3 = Eraser (sneak = clear everything)
 execute if score #m gb matches 3 if predicate glowborder:sneaking run function glowborder:clear_all
 execute if score #m gb matches 3 unless predicate glowborder:sneaking run function glowborder:erase
+# mode 4 = Multi-pos
+execute if score #m gb matches 4 if predicate glowborder:sneaking run function glowborder:mp_finish
+execute if score #m gb matches 4 unless predicate glowborder:sneaking run function glowborder:mp_add
+# mode 5 = Line
+execute if score #m gb matches 5 if predicate glowborder:sneaking run function glowborder:line_b
+execute if score #m gb matches 5 unless predicate glowborder:sneaking run function glowborder:line_a
+# mode 6 = Circle
+execute if score #m gb matches 6 if predicate glowborder:sneaking run function glowborder:circle_edge
+execute if score #m gb matches 6 unless predicate glowborder:sneaking run function glowborder:circle_center
+# mode 7 = Sphere
+execute if score #m gb matches 7 if predicate glowborder:sneaking run function glowborder:sphere_edge
+execute if score #m gb matches 7 unless predicate glowborder:sneaking run function glowborder:sphere_center
