@@ -1,8 +1,44 @@
 hash-format = "sha256"
 
 [[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/clear_all.mcfunction"
+hash = "84c7df0ce21f1900064952311cad0652a25b7fb4d8eebf83c32cc644f8f8d6a8"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/draw.mcfunction"
+hash = "abd8fb8217949b70998589393d70bfca31610f05881c35ddac8148efd66f7e11"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/load.mcfunction"
+hash = "af2711ed128a20d92c18abc7733cdae217c4c8ef5d4507f7853bc3aec4548071"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/pos1.mcfunction"
+hash = "eef77b0a7d32843b476050a4e45f0cad62ece5d0b4dec09c3d031c8822275d1c"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/pos2.mcfunction"
+hash = "57be8e010645a245577211b5b542a9ad9f887e8d622e6d431eddb23d15fb6e50"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/show.mcfunction"
+hash = "f350086683ed9e03844f020a416d4cddad1e137a5742bd0e8f2d80a04aead614"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/minecraft/tags/function/load.json"
+hash = "67891b87eb593089b78f70bfa456c1511a7a96e0da41653362a66766445c3c12"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/pack.mcmeta"
+hash = "30283942902c063b65ebdc253bddee8e3c21189bb2f6180aad0a9369646ca229"
+
+[[files]]
 file = "README.md"
 hash = "ec8ba5bd5c4bd2897f27d6424794d11f1415d7425a290e95d1336d2e4eb8ce46"
+
+[[files]]
+file = "config/commandaliases/border.json"
+hash = "dad544a99ab4da999a24811e2c731f221e3f6e8a3ae8604fd1f03b665de9def3"
 
 [[files]]
 file = "config/commandaliases/smite.json"

@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "commandMode": "COMMAND_CUSTOM",
+  "command": "border",
+  "permission": 2,
+  "children": [
+    {
+      "child": "pos1",
+      "type": "literal",
+      "permission": 2,
+      "actions": [
+        { "command": "execute as $executor_name() at @s run function glowborder:pos1", "commandType": "SERVER" }
+      ]
+    },
+    {
+      "child": "pos2",
+      "type": "literal",
+      "permission": 2,
+      "actions": [
+        { "command": "execute as $executor_name() at @s run function glowborder:pos2", "commandType": "SERVER" }
+      ]
+    },
+    {
+      "child": "show",
+      "type": "literal",
+      "permission": 2,
+      "children": [
+        {
+          "child": "color",
+          "type": "argument",
+          "argumentType": "minecraft:word",
+          "permission": 2,
+          "suggestionProvider": {
+            "suggestionMode": "JSON_LIST",
+            "suggestion": "[\"red\",\"gold\",\"yellow\",\"lime\",\"green\",\"aqua\",\"blue\",\"light_purple\",\"white\"]"
+          },
+          "actions": [
+            { "command": "data modify storage glowborder:in color set value \"{{color}}\"", "commandType": "SERVER" },
+            { "command": "function glowborder:show", "commandType": "SERVER" }
+          ]
+        }
+      ]
+    },
+    {
+      "child": "clear",
+      "type": "literal",
+      "permission": 2,
+      "actions": [
+        { "command": "function glowborder:clear_all", "commandType": "SERVER" }
+      ],
+      "children": [
+        {
+          "child": "id",
+          "type": "argument",
+          "argumentType": "minecraft:word",
+          "permission": 2,
+          "actions": [
+            { "command": "kill @e[type=block_display,tag=gb_region{{id}}]", "commandType": "SERVER" }
+          ]
+        }
+      ]
+    }
+  ]
+}
