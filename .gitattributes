@@ -1,3 +1,5 @@
 *.toml text eol=lf
 *.md text eol=lf
 *.json text eol=lf
+*.mcfunction text eol=lf
+*.mcmeta text eol=lf
