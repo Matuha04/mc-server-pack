@@ -10,3 +10,9 @@ execute if score #m gb matches 0 unless predicate glowborder:sneaking run functi
 # mode 1 = Border
 execute if score #m gb matches 1 if predicate glowborder:sneaking run function glowborder:pos2
 execute if score #m gb matches 1 unless predicate glowborder:sneaking run function glowborder:pos1
+# mode 2 = Ruler
+execute if score #m gb matches 2 if predicate glowborder:sneaking run function glowborder:ruler_b
+execute if score #m gb matches 2 unless predicate glowborder:sneaking run function glowborder:ruler_a
+# mode 3 = Eraser (sneak = clear everything)
+execute if score #m gb matches 3 if predicate glowborder:sneaking run function glowborder:clear_all
+execute if score #m gb matches 3 unless predicate glowborder:sneaking run function glowborder:erase
