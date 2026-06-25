@@ -1,0 +1,13 @@
+name = "Stack Manager (Fabric/NeoForge)"
+filename = "Stack Manager v1.0.1-1.21.11 Fabric BETA.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DEOvdhiV/versions/BxhRaltE/Stack%20Manager%20v1.0.1-1.21.11%20Fabric%20BETA.jar"
+hash-format = "sha512"
+hash = "a69b607fa1eae3b5c6085b4029e59f9022b531f26678d2e2dedc79685d4c5ec5f5bbdf9aef8b7bb6a99e94605163d57455af63328ebbbf95b210054bb570f161"
+
+[update]
+[update.modrinth]
+mod-id = "DEOvdhiV"
+version = "BxhRaltE"
