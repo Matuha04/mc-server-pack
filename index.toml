@@ -30,15 +30,15 @@ hash = "8fe7413a56e4654e5ee25f8f6ace7c3646089285eb717c6baa9f1ffa8db61500"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/give_mode0.mcfunction"
-hash = "ff8e0854176dc40b0001b6ed1e5c4291fee24c75237cdafc19d51a68d2fb85e8"
+hash = "97a803edbacf394e7723676bfa0745236eb77d82d8fd79b6664f228f1d9b3151"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/give_mode1.mcfunction"
-hash = "32a85867a0713b5b5356e7ec1fe7a319c975551b8af70341a7d99f2d0a3f068e"
+hash = "edb0a8f8a816ab8d4422986fd1418c4dca5acfcb94e3436895517cfc195ad263"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/givewand.mcfunction"
-hash = "3ef4a2ae380df5445ec12d54a258eb3e087d69278d1eac9bbb08dbdd2014b84d"
+hash = "4921d837699de1accecfaedcecd3e0a8ede31fb44eea69e924d0b6bf5317a5f3"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/hide_panel.mcfunction"
@@ -134,7 +134,7 @@ hash = "431b04307797c05a262d0257eaed5c3d8c66d81401c83be5f66b2861653aab8a"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/tick.mcfunction"
-hash = "fefc4e5626f7122f66f1236ebb25f4e8b772d5a5518c3d1cf303c42c6117f96e"
+hash = "ddbb041a1eec5ce7de4e80e5a0fa90f90648c16dc6ad3716aa6835e477a69847"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/togglewalls.mcfunction"
@@ -151,6 +151,10 @@ hash = "0b1a52e30fd66ca4ced7b760f05fa0b01ba0df213fd7e2254d06a07dbfe195df"
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/wand_cycle.mcfunction"
 hash = "e73dac25c54cd3232b28da2a1b660cbd75b948676518ab8d1fe0bcbbf0cfc280"
+
+[[files]]
+file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/wand_dropped.mcfunction"
+hash = "b53b08d6858a441b14ed7253b187cf9271778dfc2be342221a81a00590a27662"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/wand_use.mcfunction"
