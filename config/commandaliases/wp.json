@@ -9,6 +9,10 @@
       "type": "argument",
       "argumentType": "minecraft:word",
       "permission": 0,
+      "suggestionProvider": {
+        "suggestionMode": "COMMAND_LIST_LOOKUP",
+        "suggestion": "warp tp"
+      },
       "actions": [
         {
           "command": "warp tp {{name}} $executor_name()",
