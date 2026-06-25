@@ -1,5 +1,5 @@
-# Macro (per region marker): for players near each of the 4 vertical sides, spawn a window panel.
-$execute as @a[x=$(wbx),dx=16,y=$(mny),dy=$(ly),z=$(mnz),dz=$(lz)] at @s run function glowborder:panel_x {fx:"$(mnx)"}
-$execute as @a[x=$(ebx),dx=16,y=$(mny),dy=$(ly),z=$(mnz),dz=$(lz)] at @s run function glowborder:panel_x {fx:"$(mxx)"}
-$execute as @a[x=$(mnx),dx=$(lx),y=$(mny),dy=$(ly),z=$(nbz),dz=16] at @s run function glowborder:panel_z {fz:"$(mnz)"}
-$execute as @a[x=$(mnx),dx=$(lx),y=$(mny),dy=$(ly),z=$(sbz),dz=16] at @s run function glowborder:panel_z {fz:"$(mxz)"}
+# Macro (per region marker): drive each side's persistent panel.
+$function glowborder:side_x {id:"$(id)",st:"gb_sW",fc:"$(mnx)",bx:"$(wbx)",by:"$(mny)",bz:"$(mnz)",dy:"$(ly)",dz:"$(lz)"}
+$function glowborder:side_x {id:"$(id)",st:"gb_sE",fc:"$(mxx)",bx:"$(ebx)",by:"$(mny)",bz:"$(mnz)",dy:"$(ly)",dz:"$(lz)"}
+$function glowborder:side_z {id:"$(id)",st:"gb_sN",fc:"$(mnz)",bx:"$(mnx)",by:"$(mny)",bz:"$(nbz)",dx:"$(lx)",dy:"$(ly)"}
+$function glowborder:side_z {id:"$(id)",st:"gb_sS",fc:"$(mxz)",bx:"$(mnx)",by:"$(mny)",bz:"$(sbz)",dx:"$(lx)",dy:"$(ly)"}
