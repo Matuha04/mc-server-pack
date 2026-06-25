@@ -24,6 +24,5 @@ team modify gbcolor_white color white
 execute unless data storage glowborder:in color run data modify storage glowborder:in color set value "white"
 execute unless data storage glowborder:in walls run data modify storage glowborder:in walls set value 1b
 
-# wand detection: track stick "use" (the wand is a consumable stick)
-scoreboard objectives add gbWand minecraft.used:minecraft.spyglass
-scoreboard objectives add gbWandPrev dummy
+# wand: short cooldown so a held click can't repeat-fire
+scoreboard objectives add gbCd dummy

@@ -1,4 +1,7 @@
-# Fires when a player uses a spyglass. Only act if it's actually the wand (custom_data).
-execute unless data entity @s {SelectedItem:{components:{"minecraft:custom_data":{gbwand:1b}}}} run return fail
+# Reward function from the wand advancement. Re-arm the advancement, gate with a short
+# cooldown so holding the click can't repeat, then set a corner based on sneak.
+advancement revoke @s only glowborder:wand
+execute if score @s gbCd matches 1.. run return fail
+scoreboard players set @s gbCd 5
 execute if predicate glowborder:sneaking run function glowborder:pos2
 execute unless predicate glowborder:sneaking run function glowborder:pos1

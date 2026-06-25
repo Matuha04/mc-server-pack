@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": "{gbwand:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "glowborder:wand_use"
+  }
+}
