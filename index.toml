@@ -5,8 +5,16 @@ file = "README.md"
 hash = "ec8ba5bd5c4bd2897f27d6424794d11f1415d7425a290e95d1336d2e4eb8ce46"
 
 [[files]]
+file = "config/commandaliases/smite.json"
+hash = "bb4934564cf1f9540a0c3f3a06b43cf261157eb4436a8676a0404d711b0ccaf7"
+
+[[files]]
 file = "config/commandaliases/sudo.json"
 hash = "880c007bfac334028d3b9d4662d8e5f18f4817a19fcd2bd00f1e64c510a631d7"
+
+[[files]]
+file = "config/commandaliases/warp.json"
+hash = "37e0482173e4a0e05bf35924a067a51f13e8811943e028077e7ed7155d2592c2"
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
@@ -61,6 +69,11 @@ metafile = true
 [[files]]
 file = "mods/helpful-commands.pw.toml"
 hash = "d376d1728e7a3fc8a462bc34539f3ef8054cb1b0d62b65503b87b53d6f7038fc"
+metafile = true
+
+[[files]]
+file = "mods/invview.pw.toml"
+hash = "80bdecdf7911f4b1b6c57d18717d8f435ae237991efdd4c43c50ba6f42bb2139"
 metafile = true
 
 [[files]]
