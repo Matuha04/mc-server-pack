@@ -5,12 +5,13 @@ file = "README.md"
 hash = "ec8ba5bd5c4bd2897f27d6424794d11f1415d7425a290e95d1336d2e4eb8ce46"
 
 [[files]]
-file = "config/commandaliases/forcesay.json"
-hash = "9dd52b3e55e1b0797f03283fe6618d63333153b7b832bb6500fcac02c0c1f240"
+file = "config/commandaliases/sudo.json"
+hash = "880c007bfac334028d3b9d4662d8e5f18f4817a19fcd2bd00f1e64c510a631d7"
 
 [[files]]
-file = "config/commandaliases/smite.json"
-hash = "ec0c207415d9b56f79d05589e9d7fcf87b25b279e0a178d4f6e276ac83fd2a82"
+file = "mods/alternate-current.pw.toml"
+hash = "fc8ffe66dc0c7eb55cf2ce38d1ae4bf1c4cdfbfdcda2636b1cd140c851e03cc5"
+metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
@@ -20,6 +21,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "eaa52d6ff1bcb539956d50626085d9185eca346fabcf6b3c176c53192b9958ec"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "4ccfd35816f0d31d48ba07f93f999d30774477ac69c90b89e14ec22229f7df66"
 metafile = true
 
 [[files]]
@@ -33,8 +39,8 @@ hash = "e1b4cb1015dfe0e0cbe2da4fd30cd0948de757d08259cb5724e9448778e64449"
 metafile = true
 
 [[files]]
-file = "mods/essential-commands.pw.toml"
-hash = "01b068e883e786511bfc9b2cba0ef3c7af33989104f693515f6de4c6a6c551bd"
+file = "mods/double-doors.pw.toml"
+hash = "f2df7f4675bf3d2a5c3113521c836c9df3c8933ce63e0b988c25c5d91b0b379d"
 metafile = true
 
 [[files]]
@@ -48,8 +54,13 @@ hash = "816b735b2ad505476201800a99f527e61b392b712b9d20ca9edcce05f412fe87"
 metafile = true
 
 [[files]]
-file = "mods/invview.pw.toml"
-hash = "80bdecdf7911f4b1b6c57d18717d8f435ae237991efdd4c43c50ba6f42bb2139"
+file = "mods/headindex.pw.toml"
+hash = "a3c3a2a4169f225bbf039517bda5136d34fcec30c6341e84077f03b27d39a454"
+metafile = true
+
+[[files]]
+file = "mods/helpful-commands.pw.toml"
+hash = "d376d1728e7a3fc8a462bc34539f3ef8054cb1b0d62b65503b87b53d6f7038fc"
 metafile = true
 
 [[files]]
@@ -64,15 +75,30 @@ metafile = true
 
 [[files]]
 file = "mods/mastercutter.pw.toml"
-hash = "6085654180887fa259b64cbd202abd83180b6fcd1483f11f30dad39b9c774d51"
+hash = "7fb51d454bbf28888822b6ed44f997671d87672fe0b6964330e5e7fd720c1283"
 metafile = true
 
 [[files]]
 file = "mods/more-professions.pw.toml"
-hash = "6f8161c8e1c3c27ddd054e57d8c7ad7ba868e0c51ed2ca57dae3311211ac9636"
+hash = "cb1c5f0e44a55fc4b60177240d5b62b72e8d40c17e7fb9cc1cdac2ae7776ce2d"
+metafile = true
+
+[[files]]
+file = "mods/scalablelux.pw.toml"
+hash = "936e9028071f4e49ecd551aadab4c161f9a7143764b4cc89f8077296bd8645a6"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "16a351dac4db6e5b8035f56090710a227d33482797ef5bcc09a367099304be74"
+metafile = true
+
+[[files]]
+file = "mods/tree-harvester.pw.toml"
+hash = "5e87caea13a44193abf997de56cf3cab2eb9feb1d8be35e0203f06df3552b9c5"
 metafile = true
 
 [[files]]
 file = "mods/vanilla-refresh.pw.toml"
-hash = "2dd0f9f72ae17a41175e0a44f642a693a9abde4f985ff022a06eee7606a666a6"
+hash = "1efad886ff5c4382cb478d911860d29f1cdbc05735642747b2c133317993aa60"
 metafile = true

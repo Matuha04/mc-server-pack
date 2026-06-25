@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "commandMode": "COMMAND_CUSTOM",
+  "command": "sudo",
+  "permission": 2,
+  "children": [
+    {
+      "child": "target",
+      "type": "argument",
+      "argumentType": "minecraft:word",
+      "permission": 2,
+      "children": [
+        {
+          "child": "say",
+          "type": "literal",
+          "permission": 2,
+          "children": [
+            {
+              "child": "message",
+              "type": "argument",
+              "argumentType": "minecraft:greedy_string",
+              "permission": 2,
+              "actions": [
+                {
+                  "command": "tellraw @a {\"text\":\"<{{target}}> {{message}}\"}",
+                  "commandType": "SERVER"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "child": "command",
+          "type": "argument",
+          "argumentType": "minecraft:greedy_string",
+          "permission": 2,
+          "actions": [
+            {
+              "command": "execute as {{target}} at {{target}} run {{command}}",
+              "commandType": "SERVER"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

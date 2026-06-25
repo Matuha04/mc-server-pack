@@ -1,6 +1,6 @@
 name = "Vanilla Refresh"
 filename = "vanilla-refresh-1.4.31.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/gWO6Zqey/versions/guwB9g3K/vanilla-refresh-1.4.31.jar"

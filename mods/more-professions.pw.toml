@@ -1,6 +1,6 @@
 name = "More Professions"
 filename = "more-professions-1.5.3.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/uAWa7gfJ/versions/mRloF4dL/more-professions-1.5.3.jar"

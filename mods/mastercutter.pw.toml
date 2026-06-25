@@ -1,6 +1,6 @@
 name = "MasterCutter"
 filename = "mastercutter-1.6-mc1.21.11.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/DuUMFIfX/versions/6fasKsJ2/mastercutter-1.6-mc1.21.11.jar"
