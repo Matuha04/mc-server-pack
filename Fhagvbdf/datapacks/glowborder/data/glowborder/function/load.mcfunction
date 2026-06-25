@@ -22,3 +22,7 @@ team modify gbcolor_white color white
 
 # default colour if /border show is used without one
 execute unless data storage glowborder:in color run data modify storage glowborder:in color set value "white"
+
+# wand detection: track stick "use" (the wand is a consumable stick)
+scoreboard objectives add gbWand minecraft.used:minecraft.stick
+scoreboard objectives add gbWandPrev dummy
