@@ -62,7 +62,7 @@ hash = "eb2b164bd8e695ab261f74d051c3c98a5aec66a6e28698de242880d8da5bf49f"
 
 [[files]]
 file = "config/commandaliases/wp.json"
-hash = "de03eaafd92a3b620f710abfeba678e49977d4e77522659c4065122626906d93"
+hash = "ee93c9eeb738e6ac395251f397707da70e8642481b2ca12882df868977d64ec7"
 
 [[files]]
 file = "mods/alternate-current.pw.toml"

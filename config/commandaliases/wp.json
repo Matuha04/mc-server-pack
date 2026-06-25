@@ -11,7 +11,7 @@
       "permission": 0,
       "suggestionProvider": {
         "suggestionMode": "COMMAND_LIST_LOOKUP",
-        "suggestion": "warp tp"
+        "suggestion": "warp tp warp_name"
       },
       "actions": [
         {
