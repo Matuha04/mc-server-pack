@@ -10,12 +10,12 @@ execute store result score #x2 gb run data get entity @e[type=marker,tag=gb_pos2
 execute store result score #y2 gb run data get entity @e[type=marker,tag=gb_pos2,limit=1] Pos[1] 1
 execute store result score #z2 gb run data get entity @e[type=marker,tag=gb_pos2,limit=1] Pos[2] 1
 
-# min corner, and max corner + 1 (outer face of the far block)
+# Horizontal (X/Z) edges sit ON the blocks you stand on (no +1).
+# Vertical (Y) keeps +1 so the box has height.
 scoreboard players operation #mnx gb = #x1 gb
 scoreboard players operation #mnx gb < #x2 gb
 scoreboard players operation #mxx gb = #x1 gb
 scoreboard players operation #mxx gb > #x2 gb
-scoreboard players add #mxx gb 1
 scoreboard players operation #mny gb = #y1 gb
 scoreboard players operation #mny gb < #y2 gb
 scoreboard players operation #mxy gb = #y1 gb
@@ -25,7 +25,6 @@ scoreboard players operation #mnz gb = #z1 gb
 scoreboard players operation #mnz gb < #z2 gb
 scoreboard players operation #mxz gb = #z1 gb
 scoreboard players operation #mxz gb > #z2 gb
-scoreboard players add #mxz gb 1
 
 # edge lengths
 scoreboard players operation #lx gb = #mxx gb

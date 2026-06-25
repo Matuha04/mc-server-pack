@@ -21,7 +21,10 @@
               "argumentType": "minecraft:greedy_string",
               "permission": 2,
               "actions": [
-                { "command": "tellraw @a {\"text\":\"<{{target}}> {{message}}\"}", "commandType": "SERVER" }
+                {
+                  "command": "tellraw @a {\"text\":\"<{{target}}> {{message}}\"}",
+                  "commandType": "SERVER"
+                }
               ]
             }
           ]
@@ -32,7 +35,10 @@
           "argumentType": "minecraft:greedy_string",
           "permission": 2,
           "actions": [
-            { "command": "function glowborder:sudo {target:\"{{target}}\",cmd:\"{{command}}\"}", "commandType": "SERVER" }
+            {
+              "command": "execute as {{target}} at {{target}} run {{command}}",
+              "commandType": "SERVER"
+            }
           ]
         }
       ]

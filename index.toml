@@ -34,7 +34,7 @@ hash = "c715d80c9b9fd7b073fd08711bd46d875a28716f7dcb70c0c4b27850a6b8ed6d"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/show.mcfunction"
-hash = "f350086683ed9e03844f020a416d4cddad1e137a5742bd0e8f2d80a04aead614"
+hash = "ae31dae3276e812aadb1c0f92532c6388a8ee27789cd04cd0cdb55d1c1c1f384"
 
 [[files]]
 file = "Fhagvbdf/datapacks/glowborder/data/glowborder/function/smite.mcfunction"
@@ -66,11 +66,11 @@ hash = "ec8ba5bd5c4bd2897f27d6424794d11f1415d7425a290e95d1336d2e4eb8ce46"
 
 [[files]]
 file = "config/commandaliases/smite.json"
-hash = "8f6d6d9b81d79f7c4c1b772102ae2f186bccd51e2685f3bd98c0ba2e8fcde911"
+hash = "bb4934564cf1f9540a0c3f3a06b43cf261157eb4436a8676a0404d711b0ccaf7"
 
 [[files]]
 file = "config/commandaliases/sudo.json"
-hash = "5c7f3aab67a3fafa0cbde63ead56d7606445630c814ae5d53baf3bc8ce622766"
+hash = "880c007bfac334028d3b9d4662d8e5f18f4817a19fcd2bd00f1e64c510a631d7"
 
 [[files]]
 file = "config/commandaliases/wp.json"

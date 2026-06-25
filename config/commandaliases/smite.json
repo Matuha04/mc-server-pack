@@ -10,7 +10,16 @@
       "argumentType": "minecraft:word",
       "permission": 2,
       "actions": [
-        { "command": "function glowborder:smite {target:\"{{target}}\"}", "commandType": "SERVER" }
+        {
+          "command": "execute at {{target}} run summon minecraft:lightning_bolt",
+          "commandType": "SERVER"
+        },
+        {
+          "startTime": "200",
+          "command": "execute at {{target}} run fill ~-4 ~-1 ~-4 ~4 ~6 ~4 minecraft:air replace minecraft:fire",
+          "commandType": "SERVER",
+          "messageIfSuccessful": "Smited {{target}} (no fire left behind)."
+        }
       ]
     }
   ]
