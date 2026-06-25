@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "commandMode": "COMMAND_CUSTOM",
+  "command": "wp",
+  "permission": 0,
+  "children": [
+    {
+      "child": "name",
+      "type": "argument",
+      "argumentType": "minecraft:word",
+      "permission": 0,
+      "actions": [
+        {
+          "command": "warp tp {{name}} $executor_name()",
+          "commandType": "SERVER"
+        }
+      ]
+    }
+  ]
+}

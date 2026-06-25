@@ -13,8 +13,8 @@ file = "config/commandaliases/sudo.json"
 hash = "880c007bfac334028d3b9d4662d8e5f18f4817a19fcd2bd00f1e64c510a631d7"
 
 [[files]]
-file = "config/commandaliases/warp.json"
-hash = "37e0482173e4a0e05bf35924a067a51f13e8811943e028077e7ed7155d2592c2"
+file = "config/commandaliases/wp.json"
+hash = "460c52c6251b26b5dc4568d19b0d3cc3dc762eee380f8e74135be2a55948cb3f"
 
 [[files]]
 file = "mods/alternate-current.pw.toml"
@@ -29,6 +29,11 @@ metafile = true
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "eaa52d6ff1bcb539956d50626085d9185eca346fabcf6b3c176c53192b9958ec"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "a06ef129798265e0d7249426fb0ed5c506725b0460dc3dfdb975b8978480895e"
 metafile = true
 
 [[files]]
@@ -62,6 +67,11 @@ hash = "816b735b2ad505476201800a99f527e61b392b712b9d20ca9edcce05f412fe87"
 metafile = true
 
 [[files]]
+file = "mods/get-it-together-drops.pw.toml"
+hash = "9aa3cdec1892fe39d5c9bc5050bd22d95317219ee6ce215af3f9dc95275dfbb9"
+metafile = true
+
+[[files]]
 file = "mods/headindex.pw.toml"
 hash = "a3c3a2a4169f225bbf039517bda5136d34fcec30c6341e84077f03b27d39a454"
 metafile = true
@@ -84,6 +94,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "8c7aec9e376eb3f10da62109594e1ac6b7bc92da8e9c080f8f8f5a736051f339"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
+hash = "0fcb21a2580ad82270c404aa36e042926a7f35b0151f785bd6c6afce23e6edc4"
 metafile = true
 
 [[files]]
