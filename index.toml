@@ -462,6 +462,11 @@ hash = "16a351dac4db6e5b8035f56090710a227d33482797ef5bcc09a367099304be74"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "fc9e8b3b78f2b454d260f7cefa26834a352e146cdcfd44a6637544df335087a1"
+metafile = true
+
+[[files]]
 file = "mods/stack-manager.pw.toml"
 hash = "9448672e87f0a86dc0c3f795d02303f22ba409eb212432a5a70ca191144775bb"
 metafile = true
