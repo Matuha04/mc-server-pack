@@ -30,5 +30,8 @@ scoreboard players operation #steps gb = #adx gb
 scoreboard players operation #steps gb > #ady gb
 scoreboard players operation #steps gb > #adz gb
 execute if score #steps gb matches ..0 run scoreboard players set #steps gb 1
+scoreboard players set #four gb 4
+scoreboard players operation #imax gb = #steps gb
+scoreboard players operation #imax gb *= #four gb
 scoreboard players set #i gb 0
 function glowborder:line_step

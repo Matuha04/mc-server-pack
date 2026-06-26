@@ -1,4 +1,6 @@
-# Eraser (plain): remove the nearest marker if one is close, else the nearest walled border region
-execute if entity @e[type=block_display,tag=gb_mark,distance=..6] run kill @e[type=block_display,tag=gb_mark,distance=..6,sort=nearest,limit=1]
-execute if entity @e[type=block_display,tag=gb_mark,distance=..6] run tellraw @s ["",{"text":"[eraser] ","color":"red"},{"text":"marker removed"}]
-execute unless entity @e[type=block_display,tag=gb_mark,distance=..6] as @e[type=marker,tag=gb_wallregion,sort=nearest,limit=1,distance=..96] at @s run function glowborder:erase_region with entity @s data
+# Eraser (plain right): wipe everything within 5 blocks of where you're standing
+kill @e[type=block_display,tag=gb_edge,distance=..5]
+kill @e[type=block_display,tag=gb_mark,distance=..5]
+kill @e[type=block_display,tag=gb_wp,distance=..5]
+kill @e[type=marker,tag=gb_wallregion,distance=..5]
+tellraw @s ["",{"text":"[eraser] ","color":"red"},{"text":"erased nearby"}]
