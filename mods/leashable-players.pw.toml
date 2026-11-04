@@ -1,0 +1,13 @@
+name = "Leashable Players"
+filename = "leashmod-fabric-1.21.11.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/BKyMf6XK/versions/mgWrfIQ8/leashmod-fabric-1.21.11.jar"
+hash-format = "sha512"
+hash = "d935bb51c027bd3ca4623383a1583e75ed194b4d90e9d168aadd86b579c83aa561e5d623c15c4c0a16eae92da9b9de4386978627278463839a16f736bdfc30cb"
+
+[update]
+[update.modrinth]
+mod-id = "BKyMf6XK"
+version = "mgWrfIQ8"
