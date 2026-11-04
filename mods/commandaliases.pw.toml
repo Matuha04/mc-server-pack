@@ -1,13 +1,13 @@
 name = "Command Aliases"
-filename = "commandaliases-1.0.3+mc1.21.11-build.74.jar"
+filename = "commandaliases-fabric-1.1.0+mc1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/dHTBnV1v/versions/ymrlaGOX/commandaliases-1.0.3%2Bmc1.21.11-build.74.jar"
+url = "https://cdn.modrinth.com/data/dHTBnV1v/versions/mgoOkYce/commandaliases-fabric-1.1.0%2Bmc1.21.11.jar"
 hash-format = "sha512"
-hash = "994bcf508a6ff48755c61b87373d32dd509b5941f1938fff52448a38bcbeaeec19540f57ebeab69cde935acb4027e6944bff8bee9fcd1c8b49477907a4b77d4c"
+hash = "c66e8508986020289ed4c2314600efa47192d1a8fc0a64aa180b3c2ffbad523eae201e601e7d0aa63c998d9099e7ff425d5e5703ff08159513b4d97a189f5755"
 
 [update]
 [update.modrinth]
 mod-id = "dHTBnV1v"
-version = "ymrlaGOX"
+version = "mgoOkYce"

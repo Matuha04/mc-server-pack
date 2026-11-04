@@ -1,0 +1,13 @@
+name = "Click Mobs"
+filename = "ClickMobs-1.3.4+1.21.11-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tRdRT5jS/versions/7vCQ9NB9/ClickMobs-1.3.4%2B1.21.11-fabric.jar"
+hash-format = "sha512"
+hash = "b8b17433f892372b998b2b43e9f03933dc670b7e9cfa183afc2dafc4fc8eb997cb9e2aaa7589b5fe9d934e8ba8a9eab2a7b4747f5cdd9d5ea8f546ce739ae541"
+
+[update]
+[update.modrinth]
+mod-id = "tRdRT5jS"
+version = "7vCQ9NB9"
