@@ -1,5 +1,5 @@
 snapshot-interval: 120
-max-snapshots-per-player: 200
+max-snapshots-per-player: 50
 snapshot-on:
   player-join: true
   player-leave: true
