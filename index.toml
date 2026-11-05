@@ -378,7 +378,7 @@ hash = "ee93c9eeb738e6ac395251f397707da70e8642481b2ca12882df868977d64ec7"
 
 [[files]]
 file = "config/invhistory.yml"
-hash = "03aeac6e25ff6700d8e64d7d2a6d00aa2acae4561fbf893061ea13cd7bddce23"
+hash = "2a7c6cbf58e1eea3e01b237b91c559f3222eff114e8c194d80c4d0aa805728ee"
 
 [[files]]
 file = "config/servercore/config.yml"
