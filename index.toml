@@ -377,6 +377,10 @@ file = "config/commandaliases/wp.json"
 hash = "ee93c9eeb738e6ac395251f397707da70e8642481b2ca12882df868977d64ec7"
 
 [[files]]
+file = "config/invhistory.yml"
+hash = "03aeac6e25ff6700d8e64d7d2a6d00aa2acae4561fbf893061ea13cd7bddce23"
+
+[[files]]
 file = "config/servercore/config.yml"
 hash = "43380df80f48df8ea4df38b2e111d74c51054a620c8d397d0037eba31f6161e5"
 
@@ -497,6 +501,11 @@ metafile = true
 [[files]]
 file = "mods/infinite-trading.pw.toml"
 hash = "12a425ce270e3d95e0fefcd5956d324d732f39993ba4bb7ac655422ed05ad3f5"
+metafile = true
+
+[[files]]
+file = "mods/invhistory.pw.toml"
+hash = "f69b31a1fabac62fd17d00def5d7e2ebb16153c8b843b18c6126dbccd9ad947b"
 metafile = true
 
 [[files]]
