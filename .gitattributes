@@ -4,3 +4,4 @@
 *.mcfunction text eol=lf
 *.mcmeta text eol=lf
 *.yml text eol=lf
+*.json5 text eol=lf

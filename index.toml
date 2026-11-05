@@ -389,6 +389,10 @@ file = "config/servercore/optimizations.yml"
 hash = "bda7dd4f2841e7e65f8a43fdf17c460105581c6a0c0d388dc0cef8a6961dc108"
 
 [[files]]
+file = "config/silkiertouch.json5"
+hash = "aa993b80f259e7ca1ac118d02efd2b37bf747b799f49abea5d954faecad23638"
+
+[[files]]
 file = "mods/almanac.pw.toml"
 hash = "03383af39971df22d4581de1a8b6c0e80c6ecfd53b16716b9fc8e52580070753"
 metafile = true
