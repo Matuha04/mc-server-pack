@@ -357,6 +357,10 @@ file = "README.md"
 hash = "ec8ba5bd5c4bd2897f27d6424794d11f1415d7425a290e95d1336d2e4eb8ce46"
 
 [[files]]
+file = "config/ClickMobs/config.yml"
+hash = "374eacb1e410bd6c9a82ad9d4bff10c8f52b3fc07adf5859d33829511e942b4d"
+
+[[files]]
 file = "config/Veinminer/groups.json"
 hash = "82fa9a8d25628d9dbd6fab707e3a3aaa4d5d034a9b01b416180f5fea0aa2d1b5"
 
