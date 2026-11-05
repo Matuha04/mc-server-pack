@@ -1,0 +1,13 @@
+name = "InvHistory"
+filename = "invhistory-fabric-1.21.11-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/a7GydL63/versions/BArpAstw/invhistory-fabric-1.21.11-1.0.0.jar"
+hash-format = "sha512"
+hash = "1dbbe3f057b26d833ec62335a9884afa35387152bdeb669c952c99bb5d636bef7e7ef8833ac7c9b8777006f1776f2b5325b2bc69952dad4794d00b5e057348ff"
+
+[update]
+[update.modrinth]
+mod-id = "a7GydL63"
+version = "BArpAstw"

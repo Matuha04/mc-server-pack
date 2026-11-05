@@ -1,0 +1,8 @@
+snapshot-interval: 120
+max-snapshots-per-player: 200
+snapshot-on:
+  player-join: true
+  player-leave: true
+  player-death: true
+storage: json
+permission-level: 2
