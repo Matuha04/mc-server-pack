@@ -362,7 +362,7 @@ hash = "374eacb1e410bd6c9a82ad9d4bff10c8f52b3fc07adf5859d33829511e942b4d"
 
 [[files]]
 file = "config/Veinminer/groups.json"
-hash = "82fa9a8d25628d9dbd6fab707e3a3aaa4d5d034a9b01b416180f5fea0aa2d1b5"
+hash = "57cbc3d0e799873b538077c0381f09a93908cbba9dfa7062dfa98d0676dd0798"
 
 [[files]]
 file = "config/Veinminer/settings.json"
@@ -604,6 +604,11 @@ metafile = true
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
 hash = "e053f491047089bdce5b4479587f52ad190dc768f1ddf29dcc7541953b6a5a24"
+metafile = true
+
+[[files]]
+file = "mods/tree-harvester.pw.toml"
+hash = "5e87caea13a44193abf997de56cf3cab2eb9feb1d8be35e0203f06df3552b9c5"
 metafile = true
 
 [[files]]
